@@ -185,6 +185,7 @@ ul li:before {
 #nav ul {
     display: flex;
     flex-direction: row;
+    margin-bottom: 0;
 }
 
 #nav ul,
