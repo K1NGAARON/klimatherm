@@ -221,6 +221,7 @@ i {
     height: 70vh;
     color: var(--white);
     background-image: url('../IMG/hero.jpg');
+    background-repeat: no-repeat;
 }
 
 #hero-section .btn-wrapper {
@@ -346,6 +347,10 @@ i {
 #bm .row a {
     color: var(--white);
     font-size: 14px;
+}
+
+.legal-info p {
+    margin: 0;
 }
 
 @media all and (max-width: 540px) {
