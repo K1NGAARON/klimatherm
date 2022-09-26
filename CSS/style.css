@@ -220,7 +220,7 @@ i {
 #hero-section {
     height: 70vh;
     color: var(--white);
-    background-image: url('../IMG/hero.jpg');
+    background-image: url('../IMG/klimatherm_hero.jpg');
     background-repeat: no-repeat;
     background-position: center top;
 }
