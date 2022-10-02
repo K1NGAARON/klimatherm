@@ -201,14 +201,18 @@ ul li:before {
 .topnav-content a {
     margin: 0 20px;
     color: var(--white);
+    transition: var(--transition);
 }
 
 .topnav-content a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--primary);
+    transition: var(--transition);
 }
 
 .topnav-content .primary-btn:hover {
     text-decoration: none;
+    color: var(--white);
     background-color: var(--primary);
 }
 
