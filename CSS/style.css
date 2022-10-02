@@ -335,6 +335,7 @@ i {
     transition: var(--transition);
 }
 
+
 #bm {
     background-color: var(--secondary);
     border-top: 1px solid #fafafa40;
@@ -427,6 +428,12 @@ i {
 
     #services .service-wrapper .service-post {
         width: 100%;
+    }
+
+    
+    #footer .logo {
+        margin-left: 0;
+        width: 150px;
     }
 }
 
