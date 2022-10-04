@@ -87,6 +87,15 @@ img {
     height: auto;
 }
 
+#about .row img,
+#experience .row img,
+#contact .row img,
+.section .slideshow-container img {
+    box-shadow: 8px 8px 0px 2px var(--primary);
+}
+
+
+
 .logo {
     max-width: 200px;
     height: auto;
