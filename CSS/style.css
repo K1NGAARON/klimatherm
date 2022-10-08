@@ -94,6 +94,11 @@ img {
     height: auto;
 }
 
+img.small {
+    height: 600px;
+    width: 504px;
+}
+
 #about .row img,
 #experience .row img,
 #contact .row img,
@@ -310,6 +315,23 @@ img {
 #services .service-post h3 {
     margin: unset;
     margin-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials a {
+    font-size: 20px;
+    color: var(--primary);
+    transition: var(--transition);
+}
+
+.socials a:hover {
+    color: var(--secondary);
+    transform: scale(1.10);
+    transition: var(--transition);
 }
 
 
