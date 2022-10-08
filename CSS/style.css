@@ -74,6 +74,13 @@ ul {
     list-style: none;
 }
 
+
+/* LIST STYLE LOGO */
+
+/* ul {
+    list-style-image: url('sqpurple.gif');
+} */
+
 ul li:before {
     content: "✓";
     color: var(--secondary);
