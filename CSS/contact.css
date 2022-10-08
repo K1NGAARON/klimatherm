@@ -1,3 +1,15 @@
 #contact {
     height: 100%;
 }
+
+#contact h1 {
+    color: var(--black);
+}
+
+#contact .row {
+    align-items: flex-start;
+}
+
+#contact .row .col i {
+    margin-right: 5px;
+}

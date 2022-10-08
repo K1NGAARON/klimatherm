@@ -91,7 +91,7 @@ img {
 #experience .row img,
 #contact .row img,
 .section .slideshow-container img {
-    box-shadow: 8px 8px 0px 2px var(--primary);
+    box-shadow: 3px 3px 0px 2px var(--primary);
 }
 
 
