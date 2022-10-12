@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
-
 :root {
-    --primary: #0052da;
-    --primary-faded: #0167ff70;
-    --secondary: #0e1b38;
+    --primary: #88c18d;
+    --secondary: #52a57e;
+    --third: #c5dca0;
     --white: #fff;
     --light-grey: #f5f5f5;
-    --black: #000;
+    --black: #35302c;
     --box-shadow: 20px 0 60px rgb(14 27 56 / 15%);
     --box-shadow-dark: 0px 6px 15px 5px rgb(14 27 56 / 30%);
     --transition: all .25s ease-in-out;
@@ -18,16 +16,18 @@ html {
 
 * {
     box-sizing: border-box;
-    font-family: Poppins;
+    font-family: elido, sans-serif;
+    font-style: normal;
     font-weight: 400;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    color: var(--black);
 }
 
 /* TEXT */
 h1 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 42px;
     color: var(--white);
     line-height: 1.2;
@@ -35,19 +35,19 @@ h1 {
 }
 
 h2 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 30px;
     margin-bottom: 16px;
 }
 
 h3 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 22px;
     margin-bottom: 16px;
 }
 
 h4 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 22px;
     margin-bottom: 16px;
 }
@@ -59,7 +59,7 @@ ul {
 }
 
 a {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
     text-decoration: none;
     color: var(--primary);
@@ -139,6 +139,10 @@ img.small {
     transition: var(--transition);
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.primary-btn i {
+    color: var(--primary);
 }
 
 .ghost-btn {
@@ -380,8 +384,7 @@ img.small {
 /* FOOTER */
 #footer {
     width: 100%;
-    background-color: #0e1b38;
-    color: var(--white);
+    background-color: var(--black);
 }
 
 #footer .footer-nav {
@@ -397,8 +400,13 @@ img.small {
     max-width: 1000px;
 }
 
-#footer a {
+#footer a,
+#footer p,
+#footer ul li {
     color: var(--white);
+}
+
+#footer a {
     transition: var(--transition);
 }
 
