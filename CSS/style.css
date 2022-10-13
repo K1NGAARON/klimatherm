@@ -92,6 +92,7 @@ ul li:before {
 img {
     width: 100%;
     height: auto;
+    margin: 20px 0;
 }
 
 img.small {
@@ -169,9 +170,10 @@ img.small {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    flex-basis: 100%;
     margin: 60px auto;
     align-items: center;
     justify-content: center;
@@ -191,6 +193,7 @@ img.small {
     flex-direction: column;
     width: 50%;
     padding: 0 30px;
+    flex: 1 0 550px;
 }
 
 .center-text {
@@ -311,7 +314,7 @@ img.small {
     border-radius: 6px;
     box-shadow: var(--box-shadow);
     text-align: center;
-    width: calc((100% - 30px) / 3);
+    width: calc((100% - 100px) / 3);
 }
 
 #services .service-post img {
