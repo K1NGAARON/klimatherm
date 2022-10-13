@@ -206,7 +206,7 @@ img.small {
 .topnav {
     width: 100%;
     position: sticky;
-    background-color: var(--secondary);
+    background-color: var(--black);
     z-index: 9;
 }
 
@@ -238,6 +238,10 @@ img.small {
     text-decoration: none;
     color: var(--primary);
     transition: var(--transition);
+}
+
+.topnav-content .primary-btn i {
+    color: var(--white);
 }
 
 .topnav-content .primary-btn:hover {
