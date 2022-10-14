@@ -408,6 +408,10 @@ img.small {
     max-width: 1000px;
 }
 
+#footer .row .col {
+    flex: 1 0 200px;
+}
+
 #footer a,
 #footer p,
 #footer ul li {
