@@ -232,6 +232,7 @@ img.small {
 }
 
 .topnav-content a {
+    font-size: 18px;
     margin: 0 20px;
     color: var(--white);
     transition: var(--transition);
@@ -286,7 +287,7 @@ img.small {
 
 /* HERO SECTION */
 #hero-section {
-    height: 70vh;
+    height: 50vh;
     color: var(--white);
     background-image: url('../IMG/klimatherm_hero.jpg');
     background-repeat: no-repeat;
