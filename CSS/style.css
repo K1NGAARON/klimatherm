@@ -534,6 +534,10 @@ img.background {
         margin: 0 auto;
     }
 
+    #footer .row {
+        flex-direction: column;
+    }
+
     img:not(#header-logo) {
         max-width: 100%;
         margin: 40px auto;
