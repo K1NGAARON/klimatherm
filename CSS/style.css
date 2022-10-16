@@ -419,6 +419,10 @@ img.small {
     max-width: 1000px;
 } */
 
+#footer .row {
+    padding: 0 30px;
+}
+
 #footer .row .col {
     flex: 1 0 350px;
     align-items: center;
@@ -444,6 +448,7 @@ img.small {
 
 #footer .logo {
     margin: 0 auto;
+    margin-left: 0;
 }
 
 #footer a,
