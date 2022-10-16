@@ -322,6 +322,7 @@ img.background {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
+    align-self: stretch;
     padding: 20px;
     border-radius: 6px;
     box-shadow: var(--box-shadow);
