@@ -107,6 +107,10 @@ img.small {
     box-shadow: 3px 3px 0px 2px var(--primary);
 }
 
+img.background {
+    box-shadow: 3px 3px 0px 2px var(--primary);
+}
+
 
 
 .logo {
