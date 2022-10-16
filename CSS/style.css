@@ -334,6 +334,10 @@ img.small {
     margin-bottom: 10px;
 }
 
+.section.service:nth-child(even) .row {
+    flex-direction: row-reverse;
+}
+
 .socials {
     display: flex;
     gap: 20px;
