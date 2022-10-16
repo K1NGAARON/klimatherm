@@ -557,8 +557,10 @@ img.background {
 }
 
 @media (max-width: 870px) {
-    .row {
-        flex-direction: column;
+    .row,
+    .section.service:nth-child(even) .row,
+    .section.service:nth-child(odd) .row {
+        flex-direction: column-reverse;
         margin: 30px auto;
     }
 
