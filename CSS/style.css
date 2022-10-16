@@ -538,6 +538,14 @@ img.background {
         flex-direction: column;
     }
 
+    #footer .row .legal {
+        flex-direction: column;
+    }
+
+    #footer .row .legal li:before {
+        content: '';
+    }
+
     img:not(#header-logo) {
         max-width: 100%;
         margin: 40px auto;
