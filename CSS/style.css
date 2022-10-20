@@ -440,7 +440,8 @@ img.background {
 }
 
 #footer .row .col {
-    flex: 1 0 350px;
+    flex: unset;
+    width: 30%;
     align-items: center;
     padding: 0;
 }
@@ -659,15 +660,24 @@ img.background {
         width: 150px;
     }
 
-    #footer .row .col {
-        flex: unset;
-        width: 30%;
-        align-items: flex-start;
-    }
+
 
     #footer .col:nth-child(1),
     #footer .col:nth-child(3) {
         width: 100%;
+    }
+}
+
+@media (max-width: 1250px) {
+    #footer .row {
+        flex-direction: column;
+        margin: 30px auto;
+    }
+
+    #footer .row .col {
+        flex: unset;
+        width: 100%;
+        align-items: flex-start;
     }
 }
 
