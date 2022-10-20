@@ -660,7 +660,8 @@ img.background {
     }
 
     #footer .row .col {
-        flex: 1 0;
+        flex: unset;
+        width: 30%;
         align-items: flex-start;
     }
 
