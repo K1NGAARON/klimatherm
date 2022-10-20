@@ -424,6 +424,17 @@ img.background {
     max-width: 1000px;
 } */
 
+#footer * {
+    font-size: 12px;
+}
+
+#footer .col:nth-child(1),
+#footer .col:nth-child(3) {
+    width: 35%;
+}
+
+
+
 #footer .row {
     padding: 0 30px;
 }
