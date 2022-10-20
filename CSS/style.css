@@ -663,6 +663,11 @@ img.background {
         flex: 1 0;
         align-items: flex-start;
     }
+
+    #footer .col:nth-child(1),
+    #footer .col:nth-child(3) {
+        width: 100%;
+    }
 }
 
 
