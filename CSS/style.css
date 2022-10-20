@@ -471,6 +471,23 @@ img.background {
     transition: var(--transition);
 }
 
+#footer .socials {
+    padding-left: 15px;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+#footer .socials * {
+    color: var(--white);
+}
+
+#footer .socials *:hover {
+    color: var(--primary);
+}
+
+#footer .col:nth-child(1) {
+    align-items: flex-start;
+}
 
 #bm {
     background-color: var(--secondary);
