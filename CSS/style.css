@@ -679,6 +679,10 @@ img.background {
         width: 100%;
         align-items: flex-start;
     }
+
+    #footer ul li::before {
+        margin-left: 0;
+    }
 }
 
 
