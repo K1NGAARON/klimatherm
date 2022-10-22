@@ -1,0 +1,13 @@
+.section {
+    height: 75vh;
+}
+
+.section h1 {
+    color: var(--black);
+}
+
+@media (max-width: 768px) {
+    .section {
+        height: fit-content;
+    }
+}
