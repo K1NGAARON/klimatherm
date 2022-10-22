@@ -1,13 +1,13 @@
-.section {
+#hero {
     height: 75vh;
 }
 
-.section h1 {
+#hero h1 {
     color: var(--black);
 }
 
 @media (max-width: 768px) {
-    .section {
+    #hero {
         height: fit-content;
     }
 }
