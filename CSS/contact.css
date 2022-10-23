@@ -18,3 +18,19 @@
     margin-left: 0;
     width: 80%;
 }
+
+
+
+@media (max-width: 768px) {
+    #contact p {
+        text-align: left;
+    }
+
+    #contact .row {
+        flex-direction: column;
+    }
+
+    .contact-form-wrapper {
+        width: 100%;
+    }
+}
