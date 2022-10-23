@@ -310,9 +310,9 @@ img.background {
 }
 
 /* SERVICES */
-#services {
+/* #services {
     background-color: #f5f8fe;
-}
+} */
 
 #services .service-wrapper {
     gap: 30px;
@@ -527,6 +527,10 @@ img.background {
         height: 50vh;
     }
 
+    #experience .row {
+        flex-direction: column;
+    }
+
     .row.row-reverse {
         flex-direction: column-reverse;
     }
@@ -570,6 +574,7 @@ img.background {
 
     #footer .row .legal {
         flex-direction: column;
+        width: 100%;
     }
 
     #footer .row .legal li:before {
