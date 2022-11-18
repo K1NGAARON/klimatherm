@@ -285,7 +285,7 @@ img.background {
 }
 
 .topnav-content a.icon {
-    display: none; /* Hide on default */
+    display: none;
 }
 
 .topnav .header-logo {
@@ -309,11 +309,6 @@ img.background {
     margin-top: 20px;
 }
 
-/* SERVICES */
-/* #services {
-    background-color: #f5f8fe;
-} */
-
 #services .service-wrapper {
     gap: 30px;
 }
@@ -327,7 +322,7 @@ img.background {
     border-radius: 6px;
     box-shadow: var(--box-shadow);
     text-align: center;
-    width: calc((100% - 100px) / 3);
+    width: 22%;
 }
 
 #services .service-post img {
