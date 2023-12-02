@@ -1,0 +1,24 @@
+.section h1 {
+    color: var(--black);
+}
+
+.section .row {
+    align-items: center;
+}
+
+.section .row.flex-col {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section .row.flex-col h2, 
+.section .row.flex-col p {
+    width: 65%;
+}
+
+@media (max-width: 560px) {
+    .section .row.flex-col h2, 
+.section .row.flex-col p {
+    width: 100%;
+}
+}
