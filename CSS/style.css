@@ -394,10 +394,16 @@ img.background {
     width: fit-content;
 }
 
-.contact-form-wrapper .primary-btn {
+.contact-form-wrapper .primary-btn,
+.contact-form-wrapper .btn {
+    color: var(--white);
     margin-top: 20px;
     padding: 15px 0;
     background-color: var(--secondary);
+}
+
+.contact-form-wrapper .btn:hover {
+    cursor: pointer;
 }
 
 /* FOOTER */
